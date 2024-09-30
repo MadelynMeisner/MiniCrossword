@@ -2,7 +2,7 @@ import java.util.Scanner;
 //System.out.println();
 public class MiniCrossword
 	{
-
+// blah blah blah
 		public static void main(String[] args)
 			{
 				//greetPlayer();
@@ -41,11 +41,11 @@ public class MiniCrossword
 						}
 				}
 			System.out.println(  "    1   2   3   4   5");
+			System.out.println( "1 |___|___|___|___|___|");
 			System.out.println( "2 |___|___|___|___|___|");
-			System.out.println( "2 |___|___|___|___|___|");
-			System.out.println( "2 |___|___|___|___|___|");
-			System.out.println( "2 |___|___|___|___|___|");
-			System.out.println( "2 |___|___|___|___|___|");
+			System.out.println( "3 |___|___|___|___|___|");
+			System.out.println( "4 |___|___|___|___|___|");
+			System.out.println( "5 |___|___|___|___|___|");
 			System.out.println( "2 |___|___|___|___|___|");
 		}
 
