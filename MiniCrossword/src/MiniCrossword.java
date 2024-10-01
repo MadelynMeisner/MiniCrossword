@@ -9,7 +9,7 @@ public class MiniCrossword
 				//greetPlayer();
 				//displayBoard();
 				playerGuess();
-//				3 classes
+//			3 classes
 //				- this one
 //				- all questions
 //				- getters setters etc
@@ -40,7 +40,7 @@ public class MiniCrossword
 						{				
 						}
 				}
-			System.out.println(  "    1   2   3   4   5");
+			System.out.println(  "    1     2   3   4   5");
 			System.out.println( "1 |_"+boardMatrix[0][0]+"_|_"+boardMatrix[0][1]+"_|_"+boardMatrix[0][2]+"_|_"+boardMatrix[0][3]+"_|_"+boardMatrix[0][4]+"_|");
 			System.out.println( "2 |_"+boardMatrix[1][0]+"_|_"+boardMatrix[1][1]+"_|_"+boardMatrix[1][2]+"_|_"+boardMatrix[1][3]+"_|_"+boardMatrix[1][4]+"_|");
 			System.out.println( "3 |_"+boardMatrix[2][0]+"_|_"+boardMatrix[2][1]+"_|_"+boardMatrix[2][2]+"_|_"+boardMatrix[2][3]+"_|_"+boardMatrix[2][4]+"_|");
@@ -53,6 +53,7 @@ public class MiniCrossword
 			if(playerGuess.equals(Data.crossword.get(3).getAnswer()))
 			      {
 			        System.out.println("Great! thats the answer, 200 points will be added to your current score of " + playerScore + "!"); 
+			        System.out.println();
 			        System.out.println();
 			       
 			      }
