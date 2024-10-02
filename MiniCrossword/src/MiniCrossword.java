@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class MiniCrossword
 	{
 // blah blah blah
-		public static void main(String[] args)
+		 static void main(String[] args)
 			{
 				//greetPlayer();
 				//displayBoard();
