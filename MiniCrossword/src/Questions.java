@@ -1,6 +1,10 @@
 class Question
 {
-  private String question;
+
+	public static Object getNumber;
+	public static Object getQuestion;
+	public static Object getAnswer;
+private String question;
   private String answer;
   private String number;
  

@@ -2,6 +2,8 @@ import java.util.Scanner;
 import java.util.ArrayList;
 public class MiniCrossword
 	{
+		static String playerGuess;
+	static	String[][] boardMatrix = new String[5][5];
 //	player says question number 1a ex and types the word,
 //	and it fills out no matter wahter and displarys boarrd 
 //	again until its all filled out, once they have fileld 
@@ -9,7 +11,7 @@ public class MiniCrossword
 //	 try again, or try differetn questioh 	
 //	** if i have time add a timer, and let the player redo crossword if the answer is wrong 
 
-	static void main(String[] args)
+	public static void main(String[] args)
 	{
 	greetPlayer();
 	displayBoard();
@@ -22,7 +24,7 @@ public class MiniCrossword
 	{
 		Scanner userInput = new Scanner (System.in);
 		System.out.println("Hello! Lets play a crossword!! The board is 5 x 5, which means each word should be five letters. To type your answer write the question number (ex. 1A or 1D) followed by your answer in all caps. Lets start, press enter to begin.  ");
-		String playerGuess = userInput.nextLine();
+		 playerGuess = userInput.nextLine();
 	}
 	
 	public static void displayBoard()
@@ -63,11 +65,11 @@ public class MiniCrossword
 
 		else if(!playerGuess.equals(Data.crosswordOne.get(0).getAnswer()))
 		         {
-			boardMatrix[0][0] = playerGuess.indexOf(0);
-			boardMatrix[0][1] = playerGuess.indexOf(1);
-			boardMatrix[0][2] = playerGuess.indexOf(2);
-			boardMatrix[0][3] = playerGuess.indexOf(3);
-			boardMatrix[0][4] = playerGuess.indexOf(4);
+//			boardMatrix[0][0] = playerGuess.subString(0);
+//			boardMatrix[0][1] = playerGuess.indexOf(1);
+//			boardMatrix[0][2] = playerGuess.indexOf(2);
+//			boardMatrix[0][3] = playerGuess.indexOf(3);
+//			boardMatrix[0][4] = playerGuess.indexOf(4);
 		         }
 
 	}  
